@@ -1,1 +1,68 @@
 /*Schrijf hier jouw CSS*/
+
+/* Positioneren */
+
+/*Opdracht 1 */
+
+.opdracht-1 ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Opdracht 2 */
+
+.opdracht-2 ul {
+    display: flex;
+
+}
+
+.opdracht-2 ul li {
+    flex: 1;
+}
+
+/* Opdracht 3 */
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom-right {
+    align-self: flex-end;
+
+}
+
+.centered {
+    align-self: center;
+}
+
+/* Opdracht 4 */
+
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Opdracht 5 */
+
+.opdracht-5 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one, .two, .three {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top-2 {
+    align-self: center;
+}
+
+.top-3 {
+    align-self: flex-end;
+}
