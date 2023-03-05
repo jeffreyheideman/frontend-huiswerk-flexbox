@@ -98,11 +98,11 @@ header {
     align-items: flex-end;
     padding: 1rem;
     border-radius: 4px;
+    overflow: hidden;
 }
 
 p {
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
-
 }
