@@ -5,23 +5,17 @@ body {
     flex-direction: column;
 }
 
-main {
-    display: flex;
-    flex-basis: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
 header {
     flex-basis: 200px;
     flex-grow: 0;
     flex-shrink: 0;
 }
 
-footer {
-    flex-basis: 200px;
-    flex-grow: 0;
-    flex-shrink: 0;
+main {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 nav {
@@ -43,4 +37,10 @@ aside {
     flex-grow: 0;
     flex-shrink: 0;
     order: 3;
+}
+
+footer {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }

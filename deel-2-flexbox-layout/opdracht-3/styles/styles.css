@@ -12,6 +12,12 @@ body {
     flex-shrink: 1;
 }
 
+header {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 main {
     display: flex;
     flex-basis: auto;
@@ -25,20 +31,8 @@ nav {
     flex-shrink: 0;
 }
 
-header {
-    flex-basis: 150px;
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-
-footer {
-    flex-basis: 150px;
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-
 article {
-    flex-basis: 70%;
+    flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
 }
@@ -47,6 +41,10 @@ aside {
     flex-basis: 30%;
     flex-grow: 0;
     flex-shrink: 0;
+}
 
-
+footer {
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
