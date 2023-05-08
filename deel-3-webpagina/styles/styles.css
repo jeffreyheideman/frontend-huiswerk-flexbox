@@ -1,1 +1,107 @@
 /*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*
+beige: F2F3D9
+orange: DC9E82
+Red: C16E70
+oxford blue: 030027
+space cadet: 151E3F
+ */
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+            Nav-bar
+            Testimonial
+            Support
+            Faq
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100%;
+    text-align: center;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*///////////// Nav-bar /////////////*/
+header {
+    background-color: #030027;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-content {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    align-items: flex-end;
+    margin-left: 2rem;
+    font-size: 1.125rem;
+}
+
+
+
+/*///////////// Title /////////////*/
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+
+/*///////////// Main /////////////*/
+
+.content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.article {
+    background-color: #C16E70;
+    display: flex;
+    flex-basis: 280px;
+    height: 350px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-items: flex-end;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+p {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
